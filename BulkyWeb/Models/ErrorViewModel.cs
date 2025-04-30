@@ -9,7 +9,3 @@ namespace BulkyWeb.Models
 }
 
 
-public class NewBulky
-    {
-
-    }
