@@ -7,3 +7,9 @@ namespace BulkyWeb.Models
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
+
+
+public class NewBulky
+    {
+
+    }
