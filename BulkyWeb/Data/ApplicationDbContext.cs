@@ -2,11 +2,11 @@
 
 namespace BulkyWeb.Data
     {
-    public class ApplicationDbContext:DbContext
+    public class ApplicationDbContext : DbContext
+    {
+        protected ApplicationDbContext(DbContextOptions<ApplicationDbContext>options):base(options)
         {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
-            {
-                
-            }
         }
+    }
+      
     }
