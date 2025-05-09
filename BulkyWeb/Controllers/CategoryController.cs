@@ -14,9 +14,10 @@ namespace BulkyWeb.Controllers
         public IActionResult Index()
         {
             List<Category> objCategoryList = _db.Categories.ToList();
-            
+
             return View(objCategoryList);
+
         }
-       
+
     }
 }
